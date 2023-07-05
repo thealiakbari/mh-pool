@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "43601e76-e742-4f25-aa76-aa336c71abc1",
+		"name": "Doki",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "961371",
+		"_collection_link": "https://aimedicadvisor.postman.co/workspace/Adviser-App~996161d2-bab1-4506-8048-10ce8bce9e56/collection/961371-43601e76-e742-4f25-aa76-aa336c71abc1?source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Dis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "dis",
+							"value": "2:3-3:4-5:6-2:3-3:4-5:6-2:8-3:4-5:6-2:3-3:4-5:6-2:30-3:4-5:50",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:1212/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1212",
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
